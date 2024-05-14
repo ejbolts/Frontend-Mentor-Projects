@@ -17,9 +17,3 @@ Here's a list of the projects contained in this repository along with a brief de
 - **Languages Used**: HTML, CSS, JavaScript
 - **Live Site**: [URL to live site if available]
 - **Code**: [Link to the subfolder in this repository containing the project]
-
-## How to Use This Repository
-
-- **Clone the Repository**: 
-  ```bash
-  git clone https://github.com/yourusername/frontend-mentor-projects.git
