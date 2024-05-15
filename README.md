@@ -10,7 +10,7 @@ Here's a list of the projects contained in this repository along with a brief de
 - **Challenge**:  The challenge is to build out this recipe page and get it looking as close to the design as possible.
 - **Languages Used**: HTML, CSS
 - **Live Site**: https://ejbolts.github.io/Frontend-Mentor-Projects/recipe-page-main/
-- **Code**: /recipe-page-main
+- **Code**: [recipe-page-main](https://github.com/ejbolts/Frontend-Mentor-Projects/tree/main/recipe-page-main)
 - **Level**: 1 Newbie
 
 
