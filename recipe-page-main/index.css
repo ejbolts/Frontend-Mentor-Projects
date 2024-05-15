@@ -8,39 +8,43 @@
   src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
     format("truetype");
 }
-.attribution {
-    font-family: "Outfit-Font", sans-serif;
-    font-size: 11px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
 
-  body{
-    background-color: hsl(30, 54%, 90%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    margin: 0;
+.attribution {
+  font-family: "Outfit-Font", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
 }
-#content{
-    margin: 40px;
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
-#main-panel{
-    background-color: hsl(0, 0%, 100%);
-    width: 735px;
-    border-radius: 20px;
-    margin: 125px ;
-    overflow: hidden;
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
-#omelette-image{
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    
+#content {
+  margin: 40px;
+}
+#main-panel {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 735px;
+  border-radius: 20px;
+  margin: 125px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#omelette-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 400px;
+  margin: 40px;
 }
 
 h1 {
@@ -53,85 +57,96 @@ h2 {
   font-family: "Young-Serif-Regular", sans-serif;
   font-weight: 400;
   font-size: 30px;
-  color: hsl(14, 45%, 36%)
+  color: hsl(14, 45%, 36%);
 }
-#prep-time-title{
-    font-family: "Outfit-Font", sans-serif;
-    color: hsl(332, 51%, 32%);
-    font-weight: 700;
-    font-size: 20px;
+#prep-time-title {
+  font-family: "Outfit-Font", sans-serif;
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 20px;
 }
-#prep-time-div{
-    background-color: hsl(330, 100%, 98%);
-    border-radius: 10px;
+#prep-time-div {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
 }
-#prep-time-ul{
-    margin-top: 30px;
-    padding: 16px 45px 16px 45px;
+#prep-time-ul {
+  margin-top: 30px;
+  padding: 16px 45px 16px 45px;
 }
 li span.first-words {
-    font-weight: 700;
-    
+  font-weight: 700;
 }
-li{
-    margin: 16px 0 16px 0;
-    
+li {
+  margin: 16px 0 16px 0;
 }
-p, li, tr{
-    font-family: "Outfit-Font", sans-serif;
-    font-size: 16px;
-    color: hsl(30, 10%, 34%);
-    font-weight: 400;
+p,
+li,
+tr {
+  font-family: "Outfit-Font", sans-serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
 }
-#amount{
-    color: hsl(14, 45%, 36%)
+#amount {
+  color: hsl(14, 45%, 36%);
 }
-ol, ul {
-    list-style-position: outside;
-    margin: 0;
-    margin-left: 0;
-    padding-left: 1em;
+ol,
+ul {
+  list-style-position: outside;
+  margin: 0;
+  margin-left: 0;
+  padding-left: 1em;
 }
 
-ol li::marker, ul li::marker {
-    color: hsl(30, 54%, 30%); 
-    font-weight: 700;
-
+ol li::marker,
+ul li::marker {
+  color: hsl(30, 54%, 30%);
+  font-weight: 700;
 }
 #prep-time-ul li::marker {
-    color: hsl(332, 51%, 32%);
-    font-weight: 700;
-
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
 }
 
-
-ol li, ul li{
-    margin-bottom: 10px;  
-    padding-left: 20px;
-   
+ol li,
+ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
-tr{
-    border: solid hsl(30, 18%, 87%) 1px;
+tr {
+  border: solid hsl(30, 18%, 87%) 1px;
 }
-table{
-    width: 100%;
+table {
+  width: 100%;
 }
 td#amount {
-    text-align: right;
-    font-weight: 700;
-    color: hsl(30, 54%, 30%);
+  text-align: right;
+  font-weight: 700;
+  color: hsl(30, 54%, 30%);
 }
-th, td , section{
-    border-bottom: solid hsl(30, 18%, 87%) 1px;
-    padding: 10px;
+th,
+td,
+section {
+  border-bottom: solid hsl(30, 18%, 87%) 1px;
+  padding: 10px;
 }
-400, 600, 700
+td {
+  padding-right: 100%;
+  padding-left: 30px;
+}
 
-### Neutral
+/* Media Query for Mobile View */
+@media (max-width: 700px) {
+  #main-panel {
+    margin: 0 0 10px 0;
+    width: 100%;
+    border-radius: 0px;
+  }
 
-- White: hsl(0, 0%, 100%)
-- Rose White: hsl(330, 100%, 98%)
-- Eggshell: hsl(30, 54%, 90%)
-- Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)
+  #omelette-image {
+    max-width: 100%;
+    max-height: 350px;
+    border-radius: 0px;
+    margin: 0px;
+  }
+}
