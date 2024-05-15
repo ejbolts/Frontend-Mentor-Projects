@@ -32,9 +32,8 @@
 #main-panel{
     background-color: hsl(0, 0%, 100%);
     width: 735px;
-    height: 1700px;
     border-radius: 20px;
-    margin: 125px;
+    margin: 125px ;
     overflow: hidden;
 }
 #omelette-image{
@@ -43,27 +42,90 @@
     border-radius: 10px;
     
 }
+
 h1 {
   font-family: "Young-Serif-Regular", sans-serif;
   font-weight: 400;
+  font-size: 40px;
+  margin: 26px 0 26px 0;
 }
 h2 {
   font-family: "Young-Serif-Regular", sans-serif;
   font-weight: 400;
+  font-size: 30px;
   color: hsl(14, 45%, 36%)
 }
 #prep-time-title{
-    color: hsl(332, 51%, 32%)
+    font-family: "Outfit-Font", sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 20px;
+}
+#prep-time-div{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+#prep-time-ul{
+    margin-top: 30px;
+    padding: 16px 45px 16px 45px;
+}
+li span.first-words {
+    font-weight: 700;
+    
+}
+li{
+    margin: 16px 0 16px 0;
+    
 }
 p, li, tr{
     font-family: "Outfit-Font", sans-serif;
     font-size: 16px;
-    color: hsl(30, 10%, 34%)
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
 }
 #amount{
     color: hsl(14, 45%, 36%)
 }
+ol, ul {
+    list-style-position: outside;
+    margin: 0;
+    margin-left: 0;
+    padding-left: 1em;
+}
 
+ol li::marker, ul li::marker {
+    color: hsl(30, 54%, 30%); 
+    font-weight: 700;
+
+}
+#prep-time-ul li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+
+}
+
+
+ol li, ul li{
+    margin-bottom: 10px;  
+    padding-left: 20px;
+   
+}
+tr{
+    border: solid hsl(30, 18%, 87%) 1px;
+}
+table{
+    width: 100%;
+}
+td#amount {
+    text-align: right;
+    font-weight: 700;
+    color: hsl(30, 54%, 30%);
+}
+th, td , section{
+    border-bottom: solid hsl(30, 18%, 87%) 1px;
+    padding: 10px;
+}
+400, 600, 700
 
 ### Neutral
 
