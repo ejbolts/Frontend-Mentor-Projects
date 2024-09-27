@@ -32,4 +32,3 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Flexbox
 
 - Website - [Ethan Bolton](https://www.ethanbolton.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
